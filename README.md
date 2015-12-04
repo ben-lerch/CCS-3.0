@@ -73,7 +73,7 @@ job distribution options that you may modify by:
  pbsmrtpipe show-workflow-options -o global_options.xml
 ```
 
-Create a basemod options XML file which contains ccs-related options that 
+Create a ccs options XML file which contains ccs-related options that 
 you may modify by:
 ```
  pbsmrtpipe show-template-details pbsmrtpipe.pipelines.sa3_ds_ccs -o ccs_options.xml
@@ -89,7 +89,7 @@ The entries in the options XML files have the format:
 
 And you can modify options using your favorite text editor, such as vim.
 
-#### Run BaseMod from pbsmrtpipe
+#### Run CCS from pbsmrtpipe
 Once you have set your options, you are ready to run basemod via pbsmrtpipe:
 
 ```
