@@ -166,7 +166,7 @@ todo
  * __QUAL Value__
  * The QUAL value of a read is a measure of the posterior likelihood of an error at a particular position.  Increasing QUAL values are associated with a decreasing probability of error.  For the case of Indels and homopolymers, it is there is ambiguity as to which QUAL value is associated with the error probability.  Shown below are different types of alignment errors, with a '*' indicating which sequence BP should be associated with the alignment error.
 
-### Mismatch
+###### Mismatch
 
 ```
            *
@@ -175,7 +175,7 @@ todo
 	
 ```
 
-### Deletion
+###### Deletion
 
 ```
             *
@@ -184,7 +184,7 @@ todo
 	
 ```
 
-### Insertion 
+###### Insertion 
 
 ```
            *
@@ -193,7 +193,7 @@ todo
 	
 ```
 
-### Homopolymer Insertion or Deletion
+###### Homopolymer Insertion or Deletion
 Indels should always be left-aligned and the error probability is only given for the first base in a homopolymer.
 
 ```
