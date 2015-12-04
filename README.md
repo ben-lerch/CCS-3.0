@@ -1,4 +1,4 @@
-# CCS: PacBio Circular Consensus Sequence Analysis
+# CCS: Generate Accurate Consensus Sequences from a Single SMRTbell
 
 todo
 
