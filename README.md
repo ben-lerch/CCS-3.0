@@ -99,7 +99,7 @@ pbsmrtpipe pipeline-id pbsmrtpipe.pipelines.sa3_ds_ccs -e eid_subread:my.subread
 
 ## Analysis Options
 
-### SMRTLink/pbsmrtpipe Basemod Options
+### SMRTLink/pbsmrtpipe CCS Options
 
 |    Parameter (pbsmrtpipe_name) |     Default      |  Explanation      |
 | ------------------------------ | ---------------- | ----------------- |
