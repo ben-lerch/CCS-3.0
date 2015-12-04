@@ -1,6 +1,10 @@
 # CCS: Generate Accurate Consensus Sequences from a Single SMRTbell
 
-todo
+[![Circle CI](https://circleci.com/gh/PacificBiosciences/pbccs.svg?style=svg)](https://circleci.com/gh/PacificBiosciences/pbccs)
+
+![Image of SMRTbell](http://www.evolvedmicrobe.com/CCS.png)
+
+The ccs program takes multiple reads of the same SMRTbell sequence and combines them to produce one high quality consensus sequence.
 
 Table of contents
 =================
@@ -20,11 +24,7 @@ Table of contents
 
 ## Overview
 
-[![Circle CI](https://circleci.com/gh/PacificBiosciences/pbccs.svg?style=svg)](https://circleci.com/gh/PacificBiosciences/pbccs)
-
-![Image of SMRTbell](http://www.evolvedmicrobe.com/CCS.png)
-
-The ccs program takes multiple reads of the same SMRTbell sequence and combines them to produce one high quality consensus sequence.
+todo
 
 ## Manual
 
