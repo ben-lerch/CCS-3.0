@@ -222,4 +222,4 @@ Subreads with very low Z-scores are very unlikely to have been produced accordin
 ![Image of ZScore](http://www.evolvedmicrobe.com/Zfiltering.jpg)
 
  
- 
+<sup>For Research Use Only. Not for use in diagnostic procedures. © Copyright 2010 - 2014, Pacific Biosciences of California, Inc. All rights reserved. Information in this document is subject to change without notice. Pacific Biosciences assumes no responsibility for any errors or omissions in this document. Certain notices, terms, conditions and/or use restrictions may pertain to your use of Pacific Biosciences products and/or third party products. Please refer to the applicable Pacific Biosciences Terms and Conditions of Sale and the applicable license terms at http://www.pacificbiosciences.com/licenses.html.</sup>
