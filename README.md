@@ -46,7 +46,7 @@ Where `subreads.bam` is the input file of subreads.
 The general format for a CCS command is:
 
 ```
- ccs [OPTIONS] OUTPUT FILES...
+ ccs [OPTIONS] OUTPUT_FILE INPUT_FILE
 ```
 
 ### Running on the Command Line with pbsmrtpipe
