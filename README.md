@@ -37,8 +37,11 @@ To run Isoseq using SMRTLink, follow the usual steps for analysing data on SMRTL
 On the command line, the analysis is performed with a single call of the function `ccs`:
 
 ```
-ccs myresults.bam mynewbam.subreads.bam
+ccs ccs.bam subreads.bam
 ```
+Where `ccs.bam` is output file of CCSs.
+
+And Where `subreads.bam` is the input file of subreads.
 
 The general format for a CCS command is:
 
