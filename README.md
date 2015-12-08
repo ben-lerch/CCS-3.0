@@ -41,7 +41,7 @@ ccs ccs.bam subreads.bam
 ```
 Where `ccs.bam` is output file of CCSs.
 
-And Where `subreads.bam` is the input file of subreads.
+Where `subreads.bam` is the input file of subreads.
 
 The general format for a CCS command is:
 
