@@ -46,7 +46,7 @@ The general format for a CCS command is:
 For example:
 
 ```
-ccs ccs.bam subreads.bam
+ccs --minLength=100 ccs.bam subreads.bam
 ```
 Where `ccs.bam` is the output file of CCSs.
 
