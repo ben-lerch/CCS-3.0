@@ -39,11 +39,11 @@ On the command line, the analysis is performed with a single call of the functio
 ```
 ccs ccs.bam subreads.bam
 ```
-Where `ccs.bam` is output file of CCSs.
+Where `ccs.bam` is the output file of CCSs.
 
 Where `subreads.bam` is the input file of subreads.
 
-The general format for a CCS command is:
+The options are listed before the positional arguments. So the general format for a CCS command is:
 
 ```
  ccs [OPTIONS] OUTPUT_FILE INPUT_FILE
