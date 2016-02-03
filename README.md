@@ -136,7 +136,8 @@ pbsmrtpipe pipeline-id pbsmrtpipe.pipelines.sa3_ds_ccs -e eid_subread:my.subread
 | Number of Threads to Use   | --numThreads=0              | How many threads to use while processing.  By default, ccs will use as many threads as there are available cores to minimize processing time, but fewer threads can be specified here.  |
 | Log File                   | --logFile=mylog.txt         | The name of a log file to use, if none is given the logging information is printed to STDERR. |
 | Log level verbosity        | --logLevel=INFO             | How much log data to produce? By setting --logLevel=DEBUG, you can obtain detailed information on what ZMWs were dropped during processing, as well as any errors which may have appeared.  |
-| Overwrite output file        | --force             | When you don't care it already exists. |                                       | No Polish        | --noPolish          | Only output the initial template derived from the POA (faster, less accurate). | 
+| Overwrite output file        | --force             | When you don't care it already exists. |
+| No Polish        | --noPolish          | Only output the initial template derived from the POA (faster, less accurate). | 
 
 
 ## Files
