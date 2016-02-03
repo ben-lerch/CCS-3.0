@@ -117,6 +117,8 @@ pbsmrtpipe pipeline-id pbsmrtpipe.pipelines.sa3_ds_ccs -e eid_subread:my.subread
 | Minimum Read Score (min_read_score) | 0.75  | Minimum read score of input subreads (nigel) |
 | Minimum SNR (min_snr) | 4  | This filter removes data that is likely to contain deletions.  SNR is a measure of the strength of signal for all 4 channels (A, C, G, T) used to detect basepair incorporation.  The SNR can vary depending on where in the ZMW a SMRTbell stochastochastically lands when loading occurs.  SMRTbells that land near the edge and away from the center of the ZMW have a less intense signal, and as a result can contain sequences with more "missed" basepairs.  This value sets the threshold for minimum required SNR for any of the four channels.  Data with SNR < 4 is typically considered lower quality. |
 | Minimum Z Score (min_zscore) | -5  | The minimum Z-Score for a subread to be included in the consensus generating process. For more information, see the "What are Z-Scores" section below. |
+| Maximum Length (max_length)  | --maxLength=7000         | Maximum length of subreads to use for generating CCS. Default = 7000 |
+| No Polish  (no_polish)  | --noPolish          | Only output the initial template derived from the POA (faster, less accurate). | 
 
 ### CCS Options
 
