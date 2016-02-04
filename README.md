@@ -181,7 +181,7 @@ An example BAM entry for a consensus as seen by [samtools](http://samtools.sourc
 
 ### CCS
 
-todo
+CCS determines the consensus sequence by using a probabilistic model to score the likelihood of the subread data given a particular template sequence, selecting the template sequence that the data was most likely produced from.  The algorithm works in several stages.  In the first stage, a partial ordered aligner (POA) is used to generate an initial guess of the consensus sequence.  In the next stage, this initial sequence is refined iteratively by proposing mutations to it and accepting any that increase the likelihood of the data.  Finally, the confidence level of every position in the consensus sequence is determined by proposing all mutations within an edit distance of 1, and scoring the likelihood of the base present in the consensus sequence relative to all other single edit possibilities (insertion, deletion, substitution).  This final stage creates the QUAL values associated with each base, and by aggregating the expected errors across each position in the template, the rq value is determined.  Higher QUAL values indicate more confidence at a particular position in a consensus sequence, while higher rq values indicate a higher average quality.
 
 ## Glossary
 
