@@ -100,7 +100,7 @@ And you can modify options using your favorite text editor, such as vim.
 Once you have set your options, you are ready to run basemod via pbsmrtpipe:
 
 ```
-pbsmrtpipe pipeline-id pbsmrtpipe.pipelines.sa3_ds_ccs -e eid_subread:my.subreadset.xml --preset-xml=ccs_options.xml --preset-xml=global_options.xml
+pbsmrtpipe pipeline-id pbsmrtpipe.pipelines.sa3_ds_ccs -e eid_subread:my.subreadset.xml --preset-xml=ccs_options.xml --preset-xml=global_options.xml --output-dir=my_run
 ```
 
 
